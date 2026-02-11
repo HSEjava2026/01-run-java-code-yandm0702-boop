@@ -1,0 +1,45 @@
+package ru.hse.lab1.second;
+
+/**
+ * Класс представляет человека с именем и возрастом.
+ * Используется для демонстрации работы с объектами в Java.
+ * 
+ * @author Петров П.П.  // Мовчун Ян Дмитриевич
+ * @version 1.0
+ * @since 2026
+ */
+public class Person {
+    /** Имя человека */
+    private String name;
+    /** Возраст человека */
+    private int age;
+    
+    /**
+     * Конструктор для создания объекта Person.
+     * 
+     * @param name имя человека
+     * @param age возраст человека
+     */
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+    /**
+     * Возвращает имя человека.
+     * 
+     * @return имя человека в виде строки
+     */
+    public String getName() {
+        return name;
+    }
+    
+    /**
+     * Возвращает возраст человека.
+     * 
+     * @return возраст человека в годах
+     */
+    public int getAge() {
+        return age;
+    }
+}
